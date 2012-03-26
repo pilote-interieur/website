@@ -1,0 +1,60 @@
+/* CSS File
+----------------------------------*/
+
+body {
+  text-align: center;
+  }
+
+#page {
+  margin: 0 auto;
+  width: 1167px;
+  }
+
+#header {background: url(/images/header.png) top left no-repeat;
+height: 149px;
+}
+
+#header h1 {
+color:#FFFFFF;
+font-family:"Century Gothic"; line-height:30px; 
+font-size:197%;
+font-weight:bold;
+padding:45px 0 0 20px;
+text-transform:uppercase;
+}
+
+.yui3-g {text-align: left;}
+
+#qui-est {}
+#pour-qui {}
+#les-outils {}
+#les-valeurs {}
+
+#footer {background: url(/images/footer.png) top left no-repeat;
+height: 240px;
+text-align: left;
+}
+	
+#footer ul li {
+    display:inline-block; /* this */
+    margin:0 11px;
+    padding:5px 0;
+    *display:inline; /* this  - IE7 */
+    *zoom:1; /* this - IE7 */
+}
+
+#footer ul li a {
+    color:#666666;
+    text-align:center;
+    vertical-align:bottom; /* this */
+}
+
+#message h2 {
+color:#f844f6;
+font-family:"Century Gothic"; line-height:30px; 
+text-align: center;
+font-size:137%;
+font-weight:bold;
+padding:5px 0 0 20px;
+text-transform:uppercase;
+}
